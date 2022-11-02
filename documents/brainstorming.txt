@@ -1,0 +1,52 @@
+Doel:
+1: Inzicht geven aan Bob over waar ze een nieuw project kunnen starten.
+2: Projectie geven van de mogelijke winst.
+
+Eisen:
+--- Bob
+ * Huizen bouwen voor starters
+ * Winstgevend
+ * Voldoende ruimte beschikbaar
+ * Zo veel mogelijk huizen
+ * Zo snel mogelijk gebouwd
+
+--- Starters
+ * Groen
+ * Betaalbaar
+ * Tussen 25-35 jaar
+ * Goede bereikbaarheid van faciliteiten
+ 
+--- Huizen
+ * Oppervlakte van ~120 m2
+ * Kosten 1200-1800 per m2 per verdieping
+ * Starterswoning 2-3 verdiepingen huis, 1 verdieping appartement
+ * Mogelijheid tot gezinsuitbreiding
+
+Eerste indrukken:
+ * Hoop features in dataset 1, niet alles lijkt nuttig/informatief
+ * dataset 2 geeft antwoord op de doorlooptijd en verkoopwaarde
+ * Belangrijke features lijken:
+   - BouwgrondOpp, geeft aan of er ruimte beschikbaar is om op te bouwen
+   - TotaleOppervlakte, geeft perspectief aan BouwgrondOpp, tevens indicatie voor groen
+   - AfstandTotFaciliteiten, geeft aan hoe dicht bij alles zit voor de starters
+   - Bevolkingsdichtheid, indirecte maat voor groen
+ * Andere features om mee te nemen:
+   - x_tot_y_jaar, starters willen in een jongere buurt wonen
+   - Koopwoningen, starters willen kopen
+   - HuishoudensMetKinderen, starters willen in een kindrijke buurt wonen
+   - ScholenBinnen3Km, starters willen keuze in primair onderwijs
+   
+Probleem:
+Unsupervised learning. Geen voorspelling aan de hand van een supervised label. Combineren van features om zo de beste gemeente/wijken/buurten te vinden om te bouwen. Techniek: score bepalen aan de hand van de features. Top 3 van opties terugkoppelen, aan de hand van de zwaarte van de features. Splitsing maken op gemeente en wijk niveau
+
+Eerst ideeën:
+ - Belangrijkste feature is de beschikbare bouwgrond, anders gaat het hele feestje niet door. Daarop gaan filteren.  - Score maken aan de hand van de faciliteiten, als nieuwe feature toevoegen. Score maken voor hoeveelheid groen als ratio van totaal/beschikbaar opp en bevolkingsdichtheid, score ook toevoegen. Andere proxy voor groen kan ook de verdeling tussen soort object zijn (appartementen, vrijstaand, rijtjes), geeft indicatie van hoeveel ruimte tussen de huizen zit voor groen. 
+ - Vertaling tussen woonoppervlakte-eis en perceelgrootte. Voor een appartement is dit 0, maar voor andere huizen zit hier wel een ratio tussen. 1 ha = 10.000 m2
+ - Scores op niveau gemeente, wijk en buurt zullen anders zijn en andere betekenis hebben
+
+Framework:
+Pandas, csv inladen en makkelijk nieuwe kolommen toevoegen.
+plt, want ik ken sns en plotly niet goed
+git voor vcs
+python packaging
+venv

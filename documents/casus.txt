@@ -1,0 +1,20 @@
+Opdracht
+
+De laatste jaren is de prijsstijging van woningen een veel besproken onderwerp. Door krapte op de woningmarkt zijn kopers sneller bereid om meer te betalen voor een koopwoning. Dit zorgt ervoor dat het voor starters op de woningmarkt nog lastiger wordt om een geschikt, betaalbaar huis te vinden. Deze minder vermogende groep krijgt lastiger een hypotheek door een studieschuld of lager inkomen. Het aannemersbedrijf Bob constructions B.V. heeft als nieuw plan om een woonwijk te bouwen voor specifiek starters die opzoek zijn naar een eerste huis (leeftijd 25-35 jaar). Uit marktanalyse blijkt dat zij bereikbaarheid van faciliteiten en groen in de buurt belangrijk vinden.
+
+Bob constructions B.V. heeft zich als organisatie voorgenomen om datagedreven de bovengenoemde strategie vorm te geven door het vinden van een geschikte plek voor dit project. In dit process is het belangrijk dat het project winstgevend is en dat er tegelijkertijd zoveel mogelijk mensen geholpen worden aan een nieuwe woning. Daarbij Is het natuurlijk belangrijk dat de plek aantrekkelijk is voor starters, en dat er voldoende ruimte is voor het bouwen van nieuwe huizen.
+Als data specialist is het aan jou de taak om datagedreven een onderbouwd advies te geven aan Bob construction B.V. voor de plek van het bouwen van nieuwe huizen geschikt voor starters, met als uiteindelijk doel om winst te genereren. 
+
+Advies deel 1
+Als startpunt krijg je 2 datasets van het Centraal Bureau voor Statistiek (CBS) met verschillende informatie over wijken, buurten en gemeenten in Nederland. Gebruik deze data om een onderbouwd advies te geven over waar ze een nieuwe woonwijk kunnen bouwen. 
+
+In dit deel van de opdracht willen we zien dat:
+-	Je in staat bent om inzichten te halen uit de data
+-	Je verplaatst in de schoenen van Bob construction B.V.
+-	Je laat zien hoe zij een praktisch voordeel kunnen halen met jouw analyse
+-	Je laat zien dat je gedegen werkt in je aanpak om te komen tot inzichten
+-	Je visualiseert je oplossing door gebruik te maken van visuals
+-	Je beantwoordt de opdracht met een concreet advies
+
+Advies deel 2
+Bob construction B.V. is geïnteresseerd in een inschatting van de potentiële winst die je advies oplevert. Voor dit project hebben ze een budget beschikbaar van 15 miljoen euro. Gemiddeld zijn de kosten 1200-1800 euro per vierkante meter huis per verdieping (excl kosten voor de grond waar het huis op gebouwd wordt en afhankelijk van de luxe van het huis), en is het totale woonoppervlak van een woning voor starters gemiddeld 120 vierkante meter groot. Maak een schatting van de verwachte winst wanneer Bob construction B.V. een nieuwbouwwijk aanlegt op de plekken die jij gevonden hebt in het eerste deel van deze opdracht. Daarnaast zijn ze geinteresseerd in het aantal startenden wat ze zouden kunnen voorzien van een huis. Hoe kan Bob construction B.V. binnen het gestelde budget een maximaal aantal starters zo snel mogelijk aan een nieuw huis helpen?
