@@ -37,7 +37,7 @@ Eerste indrukken:
    - ScholenBinnen3Km, starters willen keuze in primair onderwijs
    
 Probleem:
-Unsupervised learning. Geen voorspelling aan de hand van een supervised label. Combineren van features om zo de beste gemeente/wijken/buurten te vinden om te bouwen. Techniek: score bepalen aan de hand van de features. Top 3 van opties terugkoppelen, aan de hand van de zwaarte van de features. Splitsing maken op gemeente en wijk niveau
+Geen voorspelling aan de hand van een supervised label. Gewoon een data analyse en aanbeveling doen. Combineren van features om zo de beste gemeente/wijken/buurten te vinden om te bouwen. Techniek: score bepalen aan de hand van de features. Top 3 van opties terugkoppelen, aan de hand van de zwaarte van de features. Splitsing maken op gemeente en wijk niveau
 
 Eerst ideeën:
  - Belangrijkste feature is de beschikbare bouwgrond, anders gaat het hele feestje niet door. Daarop gaan filteren.  - Score maken aan de hand van de faciliteiten, als nieuwe feature toevoegen. Score maken voor hoeveelheid groen als ratio van totaal/beschikbaar opp en bevolkingsdichtheid, score ook toevoegen. Andere proxy voor groen kan ook de verdeling tussen soort object zijn (appartementen, vrijstaand, rijtjes), geeft indicatie van hoeveel ruimte tussen de huizen zit voor groen. 
@@ -50,3 +50,6 @@ plt, want ik ken sns en plotly niet goed
 git voor vcs
 python packaging
 venv
+
+Update:
+Na heel wat rommelen in pandas is het gelukt om een score te geven op basis van bevolkingsdichtheid, afstand tot faciliteiten en beschikbare bouwgrond. Hierbij is gekeken naar een inverted genormaliseerde som van de afstanden, inverted genormaliseerde bevolkingsdichtheid en de genormaliseerde beschikbare bouwgrond. De code staat, nu nog een paar visualisaties maken en de adviezen opschrijven.
