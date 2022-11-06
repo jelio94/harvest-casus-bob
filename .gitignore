@@ -2,3 +2,4 @@
 .idea/
 .pylintrc
 *.zip
+__pycache__/
