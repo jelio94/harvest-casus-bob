@@ -1,6 +1,6 @@
 """Entry point for Bob's construction case study"""
 import matplotlib.pyplot as plt
-from bob import utils
+from utils import utils
 
 
 def advice_1():
@@ -29,13 +29,8 @@ def advice_1():
         plt.show()
 
 
-def advice_2():
-    pass
-
-
 def main():
     advice_1()
-    advice_2()
 
 
 if __name__ == '__main__':
